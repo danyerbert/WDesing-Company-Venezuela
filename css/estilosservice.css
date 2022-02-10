@@ -59,7 +59,8 @@ header{
     right: 0;
     width: 30vw;
     height: 100%;
-    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    font-size: 20px;
+    background-image: linear-gradient(45deg, #874da2 100%, #c43a30 0%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -101,7 +102,7 @@ header{
 .sustitulo{
     text-align: center;
     font-weight: 300;
-    color: lightcoral;
+    color: black;
     margin-bottom: 40px;
     font-size: 40px;
 }
@@ -184,7 +185,7 @@ header{
 
 /*flooter*/
 footer{
-    background: lightcoral;
+    background: rgb(148, 44, 173);
     padding-bottom: 0.1px;
 }
 
@@ -199,6 +200,10 @@ footer{
 
 .contact-us{
     width: 40%;
+    color: black;
+}
+
+.textos-pequeños{
     color: white;
 }
 
@@ -221,10 +226,10 @@ footer{
     margin-left: 20px;
     width: 60px;
     height: 60px;
-    border: 1px solid #fff;
+    border: 1px solid black;
     border-radius: 50%;
     text-align: center;
-    color: #fff;
+    color: black;
 }
 
 .social-media-icon:hover{
@@ -340,3 +345,14 @@ footer{
 
 
 }*/
+
+@media screen and (max-width:360px){
+    header{
+        height: 120vh;
+        background-image: url(../img/Banner0.2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
