@@ -23,7 +23,7 @@ body{
 
 header{
     height: 120vh;
-    background-image: url(../img/Banner0.1.png);
+    background: linear-gradient(to right, rgba(151, 51, 238, 0.527), rgba(218, 34, 255, 0.521)), url(../img/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -33,12 +33,12 @@ header{
 .head{
     text-align: center;
     padding: 0;
-    height: 100%;
+    height: 105%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: aliceblue;
+    color: white;
 }
 
 .menu{
@@ -80,7 +80,7 @@ header{
 }
 
 .titulo{
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 10px;
 }
 
@@ -272,7 +272,7 @@ footer{
 
 .social-media-icon:hover{
     background: #fff;
-    color: red;
+    color: black;
 }
 
 .social-media-icon i{
@@ -387,7 +387,7 @@ footer{
 @media screen and (max-width:360px){
     header{
         height: 120vh;
-        background-image: url(../img/Banner0.2.png);
+        background-image: url(../img/principal.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
